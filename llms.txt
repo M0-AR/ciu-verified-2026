@@ -1,0 +1,5 @@
+# ciu-verified-2026
+> Coding Interview University rebuilt from zero, benchmarked, proven on live market data. MIT. Python 3.12 + Docker.
+> Run: docker compose run lab (7/7 tests). Showcase: preview.html. Demo: assets/demo.mp4 + demo.gif.
+> 15 patterns; Blind75 86.7%; slopes mergesort 1.127 / binary-search 0.029 / BFS 1.005; spaced retention 3.3x; live AAPL 329.4 verified.
+> 8-week diagnose-first plan; RESHADED system design; 6 user stories (beginner, engineer, senior, data/ML, frontend, coach).

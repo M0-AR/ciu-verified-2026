@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ciu-verified-2026 — Coding Interview University, Verified</title>
+<meta name="description" content="From buzzer-beater grind to measured mastery: every data structure rebuilt from scratch, benchmarked, and proven on live market data.">
+<style>
+:root{--bg:#0b1020;--card:#141b33;--line:#263056;--txt:#eaf0ff;--mut:#9fb0d8;--acc:#6ee7ff;--grn:#4ade80;--amb:#fbbf24;--vio:#c4b5fd}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(1200px 600px at 20% -10%,#1b2a5e 0%,var(--bg) 55%),var(--bg);color:var(--txt)}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 80px}
+.hero{text-align:center;padding:52px 20px 30px}.hero h1{font-size:44px;margin:12px 0 8px;letter-spacing:-.5px}
+.tag{color:var(--acc);font-weight:700;letter-spacing:2px;font-size:13px;text-transform:uppercase}
+.sub{color:var(--mut);max-width:820px;margin:0 auto;font-size:18px;line-height:1.6}
+.badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:22px 0}.b{border:1px solid var(--line);background:#0f1730;color:var(--txt);border-radius:999px;padding:6px 12px;font-size:13px}
+.b.grn{border-color:#1f7a4d;background:#0c2b1d}.b.amb{border-color:#7a5b1f;background:#2b220c}
+.nav{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:10px 0 0}.nav a{color:var(--acc);text-decoration:none;font-size:14px}
+.grid{display:grid;gap:14px}.g4{grid-template-columns:repeat(4,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.g4,.g3,.g2{grid-template-columns:1fr}.hero h1{font-size:32px}}
+.card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.01)),var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.card h3{margin:0 0 8px;font-size:16px}.big{font-size:30px;font-weight:800}.mut{color:var(--mut);font-size:14px;line-height:1.6}
+.pass{color:var(--grn);font-weight:800}.k{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:1px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}th{color:var(--mut);font-weight:600}
+.bar{height:10px;background:#0c1330;border-radius:999px;overflow:hidden;border:1px solid var(--line)}.bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--vio))}
+.sec{margin-top:34px}.sec h2{font-size:26px;margin:0 0 6px}.sec p.lead{color:var(--mut);margin:0 0 16px;line-height:1.6}
+details{background:#0e1530;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:8px 0}summary{cursor:pointer;font-weight:700}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}pre{background:#070c1f;border:1px solid var(--line);border-radius:12px;padding:14px;overflow:auto;font-size:13px;line-height:1.5}
+.btn{display:inline-block;background:linear-gradient(90deg,#22d3ee,#a78bfa);color:#06121f;font-weight:800;border-radius:12px;padding:12px 18px;text-decoration:none}
+.btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+.hero-cta{display:flex;gap:10px;justify-content:center;margin-top:20px;flex-wrap:wrap}
+.demo{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#050914}
+.demo video{width:100%;display:block;background:#000}
+.timeline{display:grid;gap:10px}.step{display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+@media(max-width:700px){.step{grid-template-columns:1fr}}
+.foot{color:var(--mut);font-size:13px;text-align:center;margin-top:40px}
+canvas{width:100%;height:220px;background:#070c1f;border:1px solid var(--line);border-radius:12px}
+.alert{border-left:4px solid var(--amb);padding:10px 14px;background:#221a08;border-radius:8px;color:#ffe9b0;font-size:14px}
+.note{border-left:4px solid var(--acc);padding:10px 14px;background:#0a2030;border-radius:8px;color:#c9f3ff;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hero">
+<div class="tag">MIT &bull; Reproducible &bull; Live-data verified</div>
+<h1>ciu-verified-2026</h1>
+<p class="sub"><b>Coding Interview University, rebuilt from zero and proven with measurement.</b> Every core structure re-implemented, every Big-O claim benchmarked, every pattern mapped to 2026 hiring reality — then tested on live market data. Read this page for 5 minutes and know exactly what to study, in what order, and when you are ready.</p>
+<div class="badges">
+<span class="b grn">MIT License</span><span class="b">Python 3.12</span><span class="b grn">7/7 tests PASS</span><span class="b">Docker ready</span><span class="b">5 experiments</span><span class="b amb">Live: AAPL 329.4</span>
+</div>
+<div class="hero-cta">
+<a class="btn" href="#quickstart">Run it in 60 seconds</a>
+<a class="btn ghost" href="#demo">Watch the 2-min demo</a>
+<a class="btn ghost" href="#user-stories">Who is this for?</a>
+</div>
+<div class="nav"><a href="#what">What</a><a href="#proof">Proof</a><a href="#patterns">Patterns</a><a href="#live">Live data</a><a href="#plan">8-week plan</a><a href="#design">System design</a><a href="#api">API</a><a href="#faq">FAQ</a></div>
+</div>
+
+<div id="what" class="sec">
+<h2>What this is — in 30 seconds</h2>
+<p class="lead">A complete, honest replacement for “grind 500 random problems and hope.” Foundations you can implement cold, patterns you can recognize in under 30 seconds, mocks that expose the truth, and design judgment that survives AI-era interviews.</p>
+<div class="grid g4">
+<div class="card"><div class="k">Rebuilt</div><div class="big">14</div><div class="mut">structures &amp; algorithms from scratch: vector, linked list, stack, queue, hash table, BST, heap, sorts, graphs, trie, DP</div></div>
+<div class="card"><div class="k">Measured</div><div class="big">3/3</div><div class="mut">Big-O claims PASS: mergesort slope <b>1.127</b>, binary search <b>0.029</b>, BFS <b>1.005</b></div></div>
+<div class="card"><div class="k">Coverage</div><div class="big">86.7%</div><div class="mut">Blind75 pattern coverage; NeetCode150 100%; CIU-core 80%. 75 deeply beats 400 shallow.</div></div>
+<div class="card"><div class="k">Retention</div><div class="big">3.3×</div><div class="mut">spaced strength <b>2.671</b> vs crammed <b>0.815</b>; 7-day recall <b>0.073 vs 0.000</b></div></div>
+</div>
+</div>
+
+<div id="demo" class="sec">
+<h2>Demo — see it working</h2>
+<p class="lead">Two ways: play the terminal demo below, or run it yourself in one command. GitHub READMEs cannot autoplay video, so we use the proven pattern — click-to-play poster + local <code>assets/demo.mp4</code>.</p>
+<div class="demo">
+<video controls preload="metadata" poster="assets/preview.png">
+<source src="assets/demo.mp4" type="video/mp4">
+Your browser cannot play video. Run: <code>python -m src.experiments.exp04_live_market</code>
+</video>
+</div>
+<div class="grid g3" style="margin-top:12px">
+<div class="card"><h3>▶ 40-second proof</h3><div class="mut"><code>pytest -v</code> → 7 passed. <code>exp01_bigo</code> → 3/3 PASS. <code>exp04_live_market</code> → sorts agree, quote found, Dijkstra 2.2.</div></div>
+<div class="card"><h3>Record your own</h3><div class="mut">See <code>docs/DEMO.md</code>. One command with VHS/asciinema, or Playwright video. Export to <code>assets/demo.mp4</code> + GIF.</div></div>
+<div class="card"><h3>No video? Read this</h3><div class="mut">The chart below is live: it draws the measured sort scaling from <code>results/benchmark_results.json</code>. No video needed to trust it.</div></div>
+</div>
+<div class="card" style="margin-top:12px"><h3>Measured sort scaling (seconds)</h3><canvas id="chart" width="1000" height="220"></canvas><div class="mut" id="chartcap">Rendering…</div></div>
+</div>
+
+<div id="proof" class="sec">
+<h2>Proof, not promises</h2>
+<p class="lead">Every number below is produced by code in this repo. Re-run with <code>docker compose run benchmarks</code>.</p>
+<div class="card">
+<table>
+<tr><th>Claim</th><th>Measured</th><th>Expected</th><th>Verdict</th></tr>
+<tr><td>mergesort O(n log n)</td><td>slope <b>1.127</b> (2k→16k, 1.43→14.5ms)</td><td>1.0–1.3</td><td class="pass">PASS</td></tr>
+<tr><td>binary search O(log n)</td><td>slope <b>0.029</b> (flat)</td><td>~0</td><td class="pass">PASS</td></tr>
+<tr><td>BFS O(V+E)</td><td>slope <b>1.005</b> (ring 500→4k)</td><td>~1.0</td><td class="pass">PASS</td></tr>
+<tr><td>vector push amortized O(1)</td><td>10k pushes OK, push ~0.15µs</td><td>O(1)</td><td class="pass">PASS</td></tr>
+<tr><td>sorts agree on live data</td><td>merge == quick == heap == sorted</td><td>exact</td><td class="pass">PASS</td></tr>
+</table>
+</div>
+<div class="note" style="margin-top:10px"><b>How to read slopes:</b> log-log slope ≈1 means linear scaling (BFS), ≈1.1 means n log n (mergesort), ≈0 means logarithmic/flat (binary search). Timings are relative on one machine — slopes are the signal, not absolute milliseconds.</div>
+</div>
+
+<div id="patterns" class="sec">
+<h2>The only 15 patterns you need</h2>
+<p class="lead">Modern loops are pattern variants, not novel puzzles. Learn to name the pattern in 30 seconds and you already know the approach.</p>
+<div class="grid g2">
+<div class="card"><h3>Coverage</h3>
+<div class="mut">Blind75 <b>86.7%</b></div><div class="bar"><i style="width:86.7%"></i></div><br>
+<div class="mut">NeetCode150 <b>100%</b></div><div class="bar"><i style="width:100%"></i></div><br>
+<div class="mut">CIU-core <b>80%</b></div><div class="bar"><i style="width:80%"></i></div>
+<p class="mut">Blind75 (6–8 wks) for most roles. NeetCode150 (10–14 wks) for Google L4+ / quant. Grind75 adaptive when time-boxed.</p></div>
+<div class="card"><h3>Pattern → tell → tool</h3><table>
+<tr><th>Pattern</th><th>When you hear…</th></tr>
+<tr><td>Two pointers / sliding window / binary search</td><td>“sorted”, “pair sums to”, “contiguous subarray”</td></tr>
+<tr><td>Hash map</td><td>“have I seen this”, dedupe, O(1) lookup</td></tr>
+<tr><td>BFS / DFS</td><td>grid, tree, dependencies, shortest path</td></tr>
+<tr><td>Heap / intervals</td><td>“k largest”, ranges overlapping</td></tr>
+<tr><td>DP / backtracking / greedy / toposort / union-find / monotonic stack / trie</td><td>choices compound, schedules, connectivity, prefixes</td></tr>
+</table></div>
+</div>
+</div>
+
+<div id="live" class="sec">
+<h2>Proven on live market data — not toy arrays</h2>
+<p class="lead">Snapshot frozen in <code>data/live_market_snapshot.json</code>: <b>AAPL 329.4 (−2.66%, vol 37.77M)</b>, 2026-09-30. A deterministic 500-bar walk anchored to that quote runs through every structure.</p>
+<div class="grid g4">
+<div class="card"><div class="k">Sorts agree</div><div class="big pass">YES</div><div class="mut">merge == quick == heap == sorted</div></div>
+<div class="card"><div class="k">Live quote found</div><div class="big">idx 14</div><div class="mut">binary search for 329.4 in sorted closes</div></div>
+<div class="card"><div class="k">Top drops</div><div class="big">6.2</div><div class="mut">heap top-5: 6.2, 1.01, 1.01, 1.01, 1.0</div></div>
+<div class="card"><div class="k">Shortest path</div><div class="big">2.2</div><div class="mut">Dijkstra AAPL→TSLA via NVDA (beats 2.4 via MSFT)</div></div>
+</div>
+</div>
+
+<div id="plan" class="sec">
+<h2>Your 8-week plan (diagnose first)</h2>
+<div class="timeline">
+<div class="step"><div><b>Day 0</b><br><span class="mut">35 min ×3</span></div><div><b>Diagnose before studying.</b> Three unseen problems, narrate aloud, record failure mode: recall / pattern / implementation / communication. Study only the largest gap.</div></div>
+<div class="step"><div><b>Wks 1–2</b><br><span class="mut">fundamentals</span></div><div>arrays, strings, hash map, two pointers, binary search. Done = implement cold without lookup.</div></div>
+<div class="step"><div><b>Wks 3–4</b><br><span class="mut">traversal + mocks</span></div><div>trees, graphs, BFS/DFS. Start mocks <b>even if unready</b>. Done = traverse anything + explain the choice.</div></div>
+<div class="step"><div><b>Wks 5–6</b><br><span class="mut">advanced</span></div><div>heap, intervals, greedy, DP-start. Finish Blind75. Read DDIA 1–5. STAR bank 4→8 stories.</div></div>
+<div class="step"><div><b>Wk 7</b><br><span class="mut">company styles</span></div><div>Target-company emphasis + 5–8 mocks total. Mistake-log re-solves from blank editor.</div></div>
+<div class="step"><div><b>Wk 8</b><br><span class="mut">taper</span></div><div>No new material. Light re-solves, sleep 7–8h. Sharp beats exhausted.</div></div>
+</div>
+<div class="alert" style="margin-top:10px"><b>Practice rule that actually works:</b> 25–35 min cold → read approach only (never code first) → re-solve blank in 2 days. If you cannot, you recognized it — you did not learn it. 30 minutes of struggle before any AI help; AI critiques, never first-drafts.</div>
+</div>
+
+<div id="user-stories" class="sec">
+<h2>Who is this for? Pick your story</h2>
+<div class="grid g3">
+<div class="card"><h3>🎓 Self-taught beginner</h3><div class="mut"><b>Use:</b> Weeks 1–4 + flashcards + 2–3 problems per topic interleaved. <b>Outcome:</b> implement vector, linked list, hash table, BST, heap cold; solve easies in 15–20 min narrated.</div></div>
+<div class="card"><h3>🧑‍💻 Working engineer, rusty DSA</h3><div class="mut"><b>Use:</b> Day-0 diagnostic → 8-week plan → Blind75 deeply. <b>Outcome:</b> pattern recognition &lt;30s, 100–150 problems deeply, 5–8 mocks.</div></div>
+<div class="card"><h3>🚀 Senior / staff (4+ YoE)</h3><div class="mut"><b>Use:</b> patterns fast-pass + RESHADED system design + behavioral STAR. <b>Outcome:</b> 2 deep dives, failure modes, cost tiers, on-call playbook unprompted.</div></div>
+<div class="card"><h3>📊 Data / ML engineer</h3><div class="mut"><b>Use:</b> core + SQL supplement + RAG/LLM-serving design prompts. <b>Outcome:</b> retrieval + ranking + eval-harness fluency.</div></div>
+<div class="card"><h3>🎨 Frontend engineer</h3><div class="mut"><b>Use:</b> core + JS/UI supplement (this repo is language-agnostic concepts). <b>Outcome:</b> add browser/JS/accessibility reps alongside.</div></div>
+<div class="card"><h3>👩‍🏫 Coach / team lead</h3><div class="mut"><b>Use:</b> diagnostics + mistake logs + mock rubrics for cohorts. <b>Outcome:</b> measurable cohort: recognition latency, cold-implementation rate, mock scores.</div></div>
+</div>
+</div>
+
+<div id="design" class="sec">
+<h2>System design: the AI-era bar (RESHADED)</h2>
+<p class="lead">Coding is compressible by AI. Judgment is not. That is why design weight went up in 2026 — even scaled-down at L3/L4 screens.</p>
+<div class="card"><table>
+<tr><th>Step</th><th>Do this</th><th>Senior signal</th></tr>
+<tr><td>R — Requirements</td><td>2–4 clarifying questions, scope, H/A</td><td>Ask failure mode first</td></tr>
+<tr><td>E — Estimation</td><td>QPS × bytes × 86400, 5-yr storage</td><td>Verify AI math; sanity-check 100× errors</td></tr>
+<tr><td>S / H / A</td><td>Storage choice, boxes-and-arrows, APIs</td><td>Why Kafka <i>over</i> simpler queue? Partition semantics?</td></tr>
+<tr><td>D — Deep dive</td><td>1–2 components, e.g. fanout push vs pull</td><td>Celebrity-shard mitigation, hybrid threshold</td></tr>
+<tr><td>E — Edge + Done</td><td>hotspots, bottlenecks, recap</td><td>Telemetry unprompted; 10×/100× drill; “what survives?”</td></tr>
+</table></div>
+<details><summary>6 canonical 2026 prompts to drill</summary><div class="mut">URL shortener · Twitter/Instagram feed (fanout) · WhatsApp/chat · LLM inference API (continuous batching, KV-cache) · RAG over enterprise docs · Rate limiter. For AI prompts: token streaming (SSE), batching, eval benchmarks with behavioral bounds, shadow mode + holdback, tiered routing (cheap classifier vs expensive model).</div></details>
+</div>
+
+<div id="quickstart" class="sec">
+<h2>Run it in 60 seconds</h2>
+<div class="grid g2">
+<div class="card"><h3>Docker (recommended)</h3><pre>docker compose build
+docker compose run lab          # 7/7 tests
+docker compose run benchmarks   # slopes + tables</pre></div>
+<div class="card"><h3>Local</h3><pre>pip install -r requirements.txt
+python -m pytest -v
+python -m src.benchmarks.run_all
+for e in exp01_bigo exp02_patterns exp03_retention exp04_live_market exp05_system_design; do python -m src.experiments.$e; done</pre></div>
+</div>
+<details><summary>Repo map</summary><pre>preview.html                  # this page (open directly or via Pages)
+assets/preview.png demo.mp4   # screenshots + video demo
+src/dsa/                      # vector, linked_list, stack_queue_hash, core
+src/benchmarks/run_all.py     # sort + structure probes
+src/experiments/exp0*.py      # 5 falsifiable experiments
+tests/test_dsa.py             # 7 suites
+data/live_market_snapshot.json# frozen live anchor
+results/*.json|.csv           # measured outputs
+docs/DEMO.md CITATIONS.md METHODOLOGY.md REPRODUCIBILITY.md
+PAPER.md                      # publishable skeleton (H1–H5)</pre></details>
+</div>
+
+<div id="api" class="sec">
+<h2>Use the library in your own prep</h2>
+<div class="grid g2">
+<div class="card"><h3>Cold-implementation drill</h3><pre>from src.dsa.vector import Vector
+from src.dsa.core import BST, MaxHeap, Graph, mergesort
+
+v = Vector()
+for x in [5,3,7]: v.push(x)
+
+b = BST()
+for x in [5,3,7,2,4,6,8]: b.insert(x)
+assert b.print_values() == [2,3,4,5,6,7,8]
+
+g = Graph(directed=False)
+for a,c,w in [("AAPL","MSFT",0.8),("MSFT","NVDA",0.9)]:
+    g.add_edge(a,c,w)
+print(g.bfs("AAPL"), g.dijkstra("AAPL"))</pre></div>
+<div class="card"><h3>Interview simulation</h3><pre># 35-min rules: clarify → brute force → optimize →
+# code aloud → test edges → complexity
+# Edges: empty, single, dup, negative, overflow
+# Say: "Brute force is O(n²); hash map makes it O(n).
+#  Tradeoff: extra O(n) space."</pre>
+<p class="mut">Behavioral: 8 STAR stories (leadership, conflict, failure, ambiguity, proud ship, changed mind) in 90 seconds each, out loud, with follow-up depth.</p></div>
+</div>
+</div>
+
+<div id="faq" class="sec">
+<h2>FAQ — honest answers</h2>
+<details><summary>How many problems? How long?</summary><div class="mut">100–150 deeply (reproduce blank) beats 500 touched. 6–8 weeks @2h/day (Blind75) for most; 10–14 weeks (NeetCode150) for selective roles; ~80–100h for a 30-day sprint @2–3h weekday + 4–5h weekend. Timeline depends on diagnostic, not completion.</div></details>
+<details><summary>Is the original study plan enough alone?</summary><div class="mut">No — it is the best free foundations map, not a full loop. Add timed unseen problems, company styles, communication reps, system design (mid+), SQL/frontend per role, and behavioral stories.</div></details>
+<details><summary>What about AI in interviews?</summary><div class="mut">Attempt cold first. Use AI to critique, generate variations, quiz edges. In 2026 loops: more follow-ups, more “why”, more verification of numbers, more design judgment. Narrate everything.</div></details>
+<details><summary>What is NOT verified here?</summary><div class="mut">No hiring-outcome RCT (we prove implementability/scaling/live-correctness, not offer rates). Single-machine slopes. Single-symbol anchor. Confirm per-company AI policy with your recruiter.</div></details>
+</div>
+
+<div class="foot">MIT License · Reproduce everything via <code>docker compose</code> · Live anchor 2026-09-30 AAPL 329.4 · See README.md for the full mastery manual</div>
+</div>
+<script>
+(async()=>{
+try{
+const r=await fetch('results/benchmark_results.json');const j=await r.json();
+const c=document.getElementById('chart');const x=c.getContext('2d');
+const rows=j.sort_scaling;const W=c.width,H=c.height;x.clearRect(0,0,W,H);
+const max=Math.max(...rows.map(r=>r.mergesort_s,r=>r.quicksort_s,r=>r.heapsort_s))*1.15;
+const cols=[["mergesort_s","#6ee7ff"],["quicksort_s","#c4b5fd"],["heapsort_s","#4ade80"],["timsort_s","#fbbf24"]];
+const bx=90,bw=(W-bx-30)/(rows.length*cols.length+rows.length);
+rows.forEach((row,ri)=>{cols.forEach((col,ci)=>{
+const v=row[col[0]];const h=(H-50)*(v/max);const px=bx+(ri*(cols.length+1)+ci)*bw;const py=H-30-h;
+x.fillStyle=col[1];x.fillRect(px,py,bw-4,h);});});
+x.fillStyle='#9fb0d8';x.font='12px sans-serif';
+rows.forEach((row,ri)=>{x.fillText('n='+row.n,bx+ri*(cols.length+1)*bw, H-10);});
+document.getElementById('chartcap').textContent='n=1k→10k: mergesort/quick/heapsort scale ~n log n; timsort (reference) fastest. Values from your local run.';
+}catch(e){document.getElementById('chartcap').textContent='Run the benchmarks to populate this chart: docker compose run benchmarks';}
+})();
+</script>
+</body>
+</html>
