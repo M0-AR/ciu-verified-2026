@@ -60,7 +60,7 @@ canvas{width:100%;height:220px;background:#070c1f;border:1px solid var(--line);b
 <p class="lead">A complete, honest replacement for “grind 500 random problems and hope.” Foundations you can implement cold, patterns you can recognize in under 30 seconds, mocks that expose the truth, and design judgment that survives AI-era interviews.</p>
 <div class="grid g4">
 <div class="card"><div class="k">Rebuilt</div><div class="big">14</div><div class="mut">structures &amp; algorithms from scratch: vector, linked list, stack, queue, hash table, BST, heap, sorts, graphs, trie, DP</div></div>
-<div class="card"><div class="k">Measured</div><div class="big">3/3</div><div class="mut">Big-O claims PASS: mergesort slope <b>1.127</b>, binary search <b>0.029</b>, BFS <b>1.005</b></div></div>
+<div class="card"><div class="k">Measured</div><div class="big">3/3</div><div class="mut">Big-O claims PASS: mergesort slope <b>1.1</b>, binary search <b>0.01</b>, BFS <b>1.004</b></div></div>
 <div class="card"><div class="k">Coverage</div><div class="big">86.7%</div><div class="mut">Blind75 pattern coverage; NeetCode150 100%; CIU-core 80%. 75 deeply beats 400 shallow.</div></div>
 <div class="card"><div class="k">Retention</div><div class="big">3.3×</div><div class="mut">spaced strength <b>2.671</b> vs crammed <b>0.815</b>; 7-day recall <b>0.073 vs 0.000</b></div></div>
 </div>
@@ -89,9 +89,9 @@ Your browser cannot play video. Run: <code>python -m src.experiments.exp04_live_
 <div class="card">
 <table>
 <tr><th>Claim</th><th>Measured</th><th>Expected</th><th>Verdict</th></tr>
-<tr><td>mergesort O(n log n)</td><td>slope <b>1.127</b> (2k→16k, 1.43→14.5ms)</td><td>1.0–1.3</td><td class="pass">PASS</td></tr>
-<tr><td>binary search O(log n)</td><td>slope <b>0.029</b> (flat)</td><td>~0</td><td class="pass">PASS</td></tr>
-<tr><td>BFS O(V+E)</td><td>slope <b>1.005</b> (ring 500→4k)</td><td>~1.0</td><td class="pass">PASS</td></tr>
+<tr><td>mergesort O(n log n)</td><td>slope <b>1.1</b> (2k→16k, 1.33→13.0ms)</td><td>1.0–1.3</td><td class="pass">PASS</td></tr>
+<tr><td>binary search O(log n)</td><td>slope <b>0.01</b> (flat)</td><td>~0</td><td class="pass">PASS</td></tr>
+<tr><td>BFS O(V+E)</td><td>slope <b>1.004</b> (ring 500→4k)</td><td>~1.0</td><td class="pass">PASS</td></tr>
 <tr><td>vector push amortized O(1)</td><td>10k pushes OK, push ~0.15µs</td><td>O(1)</td><td class="pass">PASS</td></tr>
 <tr><td>sorts agree on live data</td><td>merge == quick == heap == sorted</td><td>exact</td><td class="pass">PASS</td></tr>
 </table>

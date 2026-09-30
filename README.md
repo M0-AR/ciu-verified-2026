@@ -18,7 +18,7 @@
 </div>
 
 > **CEO summary — read this in 60 seconds and decide.**
-> This repo turns interview prep from superstition into engineering. You get: (1) every core data structure re-implemented from scratch and tested — 7/7 suites pass; (2) every Big-O claim measured — mergesort slope **1.127**, binary search **0.029**, BFS **1.005**, all PASS; (3) the only 15 patterns that matter in 2026 — Blind75 covers **86.7%**, 75 deeply beats 400 shallow; (4) a retention protocol that wins **3.3×** over cramming; (5) proof on live market data — sorts agree, live quote found, shortest path discovered; (6) an 8-week diagnose-first plan plus AI-era system design. Open `preview.html`, press play on the demo, run one Docker command — you will know exactly what to study, in what order, and when you are ready.
+> This repo turns interview prep from superstition into engineering. You get: (1) every core data structure re-implemented from scratch and tested — 7/7 suites pass; (2) every Big-O claim measured — mergesort slope **1.1**, binary search **0.01**, BFS **1.004**, all PASS; (3) the only 15 patterns that matter in 2026 — Blind75 covers **86.7%**, 75 deeply beats 400 shallow; (4) a retention protocol that wins **3.3×** over cramming; (5) proof on live market data — sorts agree, live quote found, shortest path discovered; (6) an 8-week diagnose-first plan plus AI-era system design. Open `preview.html`, press play on the demo, run one Docker command — you will know exactly what to study, in what order, and when you are ready.
 
 ---
 
@@ -140,9 +140,9 @@ python -m http.server 8000
 
 | Claim | Measured log-log slope | Expected | Verdict |
 |---|---|---|---|
-| mergesort O(n log n) | **1.127** (2k→16k, 1.43→14.5ms) | 1.0–1.3 | ✅ PASS |
-| binary search O(log n) | **0.029** (flat) | ~0 | ✅ PASS |
-| BFS O(V+E) | **1.005** (ring 500→4k) | ~1.0 | ✅ PASS |
+| mergesort O(n log n) | **1.1** (2k→16k, 1.33→13.0ms) | 1.0–1.3 | ✅ PASS |
+| binary search O(log n) | **0.01** (flat) | ~0 | ✅ PASS |
+| BFS O(V+E) | **1.004** (ring 500→4k) | ~1.0 | ✅ PASS |
 | vector push amortized O(1) | 10k pushes OK, ~0.15µs/push | O(1) | ✅ PASS |
 
 Sort scaling (s) — `results/benchmark_results.json`:
