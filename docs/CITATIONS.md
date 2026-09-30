@@ -1,0 +1,22 @@
+# CITATIONS (verified reads, access 2026-09-30)
+
+- https://prachub.com/resources/is-coding-interview-university-enough-for-technical-interviews-in-2026 (2026-08-08)
+- https://cron-jobs.dev/guide/software-engineering-interview-prep (2026-03-20, upd 2026-09-01)
+- https://levelop.dev/blog/coding-interview-prep-guide-2026 (2026-07-05)
+- https://www.techinterviewhandbook.org/coding-interview-study-plan/ (upd 2026-01-16)
+- https://precisionaiacademy.com/blog/coding-interview-prep-guide-2026 (2026-04-08)
+- https://interviewchamp.ai/learn/timeboxed-30-day-cs-new-grad-prep-2026 (2026-05-25)
+- https://techscreen.app/articles/how-many-leetcode-problems-before-faang-interview-2026
+- https://techscreen.app/articles/do-faang-companies-still-ask-leetcode-2026
+- https://github.com/techreign/faang-interview-patterns-2026 + .../faang-interview-data-2026 (51k reports)
+- https://nexalgotrix.com/blog/leetcode-patterns-for-faang-interviews + https://www.educative.io/blog/coding-interview-leetcode-patterns + https://jobrise.io/en/blog/leetcode-grind-strategy-faang-2026
+- https://prachub.com/resources/grind-75-vs-blind-75-vs-neetcode-150-which-list-should-you-finish + https://interviewchamp.ai/learn/leetcode-75-vs-blind-75-vs-neetcode-150-2026 + https://www.codeintuition.io/blogs/neetcode-150-vs-blind-75
+- https://www.techinterview.org/post/3233474919/ai-in-system-design-interviews-2026/ (2026-05-04)
+- https://deepengineering.net/p/system-design-hiring-judgment-test (2026-07-09)
+- https://aceloop.ai/blog/system-design-faang (2026-05-03, RESHADED + L3-L7)
+- https://spacecomplexity.ai/blog/openai-system-design-interview (2026-05-31)
+- https://news.ycombinator.com/item?id=25445493 (374pts/216c) + related CIU threads
+- https://github.com/jwasham/coding-interview-university (canonical baseline, CC-BY-SA-4.0)
+- Kaggle: jaydeepagravat94583/leetcode (MIT), pratsharma7/accenture-interview-questions (MIT), kumarvikalp01/leet-code-questions-list-nd-details (Apache-2.0)
+- Live: yfinance AAPL via agent-reach_stock_quote, 2026-09-30T12:49:28Z, current 329.4 open 337.06 high 337.06 low 328.73 last_close 338.4 chg -9.0 (-2.65957%) vol 37773928 mcap 4807323025408 pe 37.73196 ts 1790712000
+- Definitional: Wikipedia Big O / Heap / Sorting / Disjoint-set.

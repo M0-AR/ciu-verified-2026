@@ -1,0 +1,19 @@
+services:
+  lab:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+    command: pytest -v --junitxml=results/junit.xml
+  benchmarks:
+    build: .
+    volumes:
+      - ./results:/app/results
+      - ./data:/app/data
+    command: python -m src.benchmarks.run_all
+  docs:
+    image: python:3.12-slim
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python -m http.server 8000

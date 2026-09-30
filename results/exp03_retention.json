@@ -1,0 +1,9 @@
+{
+  "cram_strength": 0.815,
+  "spaced_strength": 2.671,
+  "cram_7d_retention": 0.0,
+  "spaced_7d_retention": 0.073,
+  "lift": 0.073,
+  "pass": true,
+  "protocol": "25-35min cold attempt -> approach-only hint -> blank-editor re-solve in 2 days; Anki/FSRS; 7-8h sleep; never mark known on first recall (Washam)."
+}

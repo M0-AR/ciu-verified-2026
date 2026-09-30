@@ -1,0 +1,50 @@
+{
+  "patterns_15": [
+    "arrays_strings",
+    "hashmap",
+    "two_pointers",
+    "sliding_window",
+    "binary_search",
+    "linked_list",
+    "stack_queue",
+    "trees",
+    "graphs_bfs_dfs",
+    "heap",
+    "intervals",
+    "greedy",
+    "dp_1d",
+    "dp_2d_backtracking",
+    "trie_bitmath"
+  ],
+  "blind75_coverage": 0.867,
+  "neetcode150_coverage": 1.0,
+  "ciu_core_coverage": 0.8,
+  "ciu_topics": [
+    "arrays",
+    "binary_search",
+    "bitwise",
+    "caches",
+    "design_patterns",
+    "dp",
+    "graphs",
+    "hash_table",
+    "heap",
+    "linked_lists",
+    "networking",
+    "queue",
+    "recursion",
+    "sorting",
+    "stack",
+    "threads",
+    "trees_bst",
+    "tries"
+  ],
+  "hidden_patterns": {
+    "H1_patterns_beat_volume": "12-15 patterns generalize to thousands of problems (Levelop 2026, Nexalgotrix 2026, Educative 2026). 75 deeply > 400 shallow.",
+    "H2_diagnose_first": "PracHub 2026: diagnose with 3 unseen timed problems, repair largest gap only, re-validate. Completion != readiness.",
+    "H3_mock_early": "Start mocks by week 4 even if unready; 5-8 mocks total; fatigue across rounds 3-4 is the dominant onsite failure (InterviewChamp 2026).",
+    "H4_ai_resistant_tail": "System design + behavioral + live follow-ups are AI-resistant; coding alone is compressible by AI (TechInterview 2026, DeepEngineering 2026).",
+    "H5_ciu_gap": "CIU excludes SQL/frontend/system-design-depth by design; senior loops require RESHADED + failure-mode + cost-tier reasoning (Aceloop 2026)."
+  },
+  "recommendation": "Blind75 deeply (6-8 wks) for most; NeetCode150 (10-14 wks) for Google-L4+/quant; Grind75 adaptive for time-boxed."
+}

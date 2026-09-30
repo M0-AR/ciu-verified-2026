@@ -1,0 +1,36 @@
+{
+  "ns_sort": [
+    2000,
+    4000,
+    8000,
+    16000
+  ],
+  "t_sort": [
+    0.0014184950014168862,
+    0.0030141099996399134,
+    0.006860395998955937,
+    0.014704348002851475
+  ],
+  "t_bs": [
+    9.14998963708058e-07,
+    8.349998097401112e-07,
+    8.940005500335246e-07
+  ],
+  "t_bfs": [
+    4.676000025938265e-05,
+    9.489399963058531e-05,
+    0.00018611899940879084,
+    0.00038352699993993156
+  ],
+  "verdict": {
+    "mergesort_loglog_slope": 1.131,
+    "mergesort_expect": "~1.0-1.3 (n log n)",
+    "mergesort_pass": true,
+    "binary_search_loglog_slope": -0.008,
+    "binary_search_expect": "~0 (log n)",
+    "binary_search_pass": true,
+    "bfs_loglog_slope": 1.008,
+    "bfs_expect": "~1.0 (V+E)",
+    "bfs_pass": true
+  }
+}

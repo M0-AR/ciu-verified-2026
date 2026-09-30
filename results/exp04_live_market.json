@@ -1,0 +1,43 @@
+{
+  "snapshot": {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "current": 329.4,
+    "open": 337.06,
+    "high": 337.06,
+    "low": 328.73,
+    "last_close": 338.4,
+    "chg": -9.0,
+    "percent": -2.65957,
+    "volume": 37773928,
+    "market_cap": 4807323025408,
+    "pe_ttm": 37.73196,
+    "timestamp": 1790712000,
+    "source": "yfinance via agent-reach_stock_quote",
+    "verified_utc": "2026-09-30T12:49:28+00:00"
+  },
+  "n_bars": 500,
+  "sort_agree": true,
+  "live_quote_index": 14,
+  "top5_drops": [
+    6.2,
+    1.01,
+    1.01,
+    1.01,
+    1.0
+  ],
+  "hash_ok": true,
+  "bfs": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "TSLA"
+  ],
+  "dijkstra": {
+    "AAPL": 0.0,
+    "MSFT": 0.8,
+    "NVDA": 1.5,
+    "TSLA": 2.2
+  },
+  "verdict": "PASS \u2014 CIU structures correct on live-anchored market data"
+}

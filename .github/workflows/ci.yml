@@ -1,0 +1,13 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -r requirements.txt
+      - run: pytest -v
+      - run: python -m src.benchmarks.run_all
+      - run: python -m src.experiments.exp01_bigo && python -m src.experiments.exp02_patterns && python -m src.experiments.exp03_retention && python -m src.experiments.exp04_live_market && python -m src.experiments.exp05_system_design

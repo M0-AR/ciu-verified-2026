@@ -1,0 +1,80 @@
+{
+  "framework": "RESHADED (Aceloop 2026)",
+  "steps": [
+    "Requirements",
+    "Estimation",
+    "Storage",
+    "HighLevelDesign",
+    "APIs",
+    "DeepDive",
+    "Edge_Scaling",
+    "Done"
+  ],
+  "probes": [
+    "acceptable_failure_mode_first",
+    "ai_box_fallback_eval_cost",
+    "constraint_change_surgical_redesign",
+    "telemetry_oncall",
+    "10x_100x_bottleneck_drill",
+    "verify_ai_numbers_not_paste"
+  ],
+  "rubric": {
+    "Requirements": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    },
+    "Estimation": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    },
+    "Storage": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    },
+    "HighLevelDesign": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    },
+    "APIs": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    },
+    "DeepDive": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    },
+    "Edge_Scaling": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    },
+    "Done": {
+      "L3": "recognize",
+      "L4": "drive HLD+1 tradeoff",
+      "L5": "2 deep dives + failure modes",
+      "L6+": "ops+multi-region+capacity"
+    }
+  },
+  "prompts_2026": [
+    "URL shortener",
+    "Twitter feed (fanout)",
+    "WhatsApp/chat",
+    "LLM inference API (continuous batching, KV-cache)",
+    "RAG over enterprise docs",
+    "Rate limiter"
+  ],
+  "verdict": "CIU system-design OPTIONAL flag is STALE for 2026: required for mid+ and scaled-down for L3/L4 phone screens; AI-era adds vector-DB, inference-cost, eval-harness expectations."
+}
